@@ -1,4 +1,4 @@
-import { render } from "./render";
+import { render } from './render';
 
 export const addUsers = () => {
   const form = document.querySelector('form');

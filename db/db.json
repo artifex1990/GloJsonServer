@@ -4,7 +4,7 @@
       "name": "Mark",
       "email": "otto@gmail.com",
       "children": false,
-      "permissions": true,
+      "permissions": false,
       "id": "0"
     },
     {
@@ -18,6 +18,13 @@
       "id": "6f46",
       "name": "Ivan",
       "email": "sdf@sfdf.ru",
+      "children": false,
+      "permissions": false
+    },
+    {
+      "id": "478f",
+      "name": "fdf",
+      "email": "sdf@fsd",
       "children": false,
       "permissions": false
     }
