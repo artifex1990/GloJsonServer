@@ -2,6 +2,7 @@ import { render } from './render';
 
 export const editUsers = () => {
   const tbody = document.getElementById('table-body');
+  const form = document.querySelector('form');
   const nameInput = form.querySelector('#form-name');
   const emailInput = form.querySelector('#form-email');
   const childrenInput = form.querySelector('#form-children');
@@ -14,7 +15,7 @@ export const editUsers = () => {
       userService.getUser(id).then(user => {
         nameInput.value = user.name;
         emailInput.value = user.email;
-        childrenInput.value = user.children.checked;
+        childrenInput.checked = user.children;
         userService.getUsers().then(users => render(users));
 
         form.dataset.method = id;

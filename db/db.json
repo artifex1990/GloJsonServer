@@ -1,11 +1,11 @@
 {
   "users": [
     {
-      "id": "0",
       "name": "Mark",
       "email": "otto@gmail.com",
-      "children": true,
-      "permissions": false
+      "children": false,
+      "permissions": true,
+      "id": "0"
     },
     {
       "id": "1",
